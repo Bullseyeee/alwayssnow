@@ -1,0 +1,25 @@
+{
+	"geode": "4.6.0",
+	"gd": {
+		"win": "2.2081",
+		"android": "2.2081",
+		"mac": "2.2081",
+		"ios": "2.2081"
+	},
+	"id": "bullseyegmd.always-snow",
+	"name": "Always Snow",
+	"version": "v1.0.0",
+	"developer": "BullseyeGMD",
+	"description": "adds snow to the main menu except you can do it anytime (robtops version is only near xmas).",
+	"settings": {
+		"density": {
+			"type": "int",
+			"name": "Snow density",
+			"description": "How many snowflakes are on screen.",
+			"default": 250,
+			"min": 50,
+			"max": 800,
+			"control": { "slider": true }
+		}
+	}
+}
